@@ -1,0 +1,33 @@
+version = 1
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_paths = ["github.com/mpinnamaneni1/trade-finance-logistics"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  dialect = "typescript"
+  style_guide = "airbnb"
+  environment = [
+    "nodejs",
+    "browser",
+    "jest",
+    "jquery",
+    "mocha",
+    "mongo",
+    "jasmine"
+  ]
+  plugins = [
+    "ember",
+    "angular",
+    "react",
+    "vue",
+    "angularjs",
+    "meteor"
+  ]
